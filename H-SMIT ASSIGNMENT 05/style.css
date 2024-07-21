@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+     display: inline; 
+     margin-left: 40px;
+
+}
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav span{
+    color:blue;
+}
+
+.hero{
+    text-align: center;
+    padding-top:40px ;
+}
+.hero h1{
+    margin-bottom:30px ;
+}
+.links{
+    margin-top: 12px;
+    border-radius: 20px 20px;
+    
+}
+.links img{
+    width: 500px;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    border-radius: 20px 20px;
+}
+.links a {
+    margin: 10px;
+    border-radius: 20px 20px;
+}
+.second{
+    background-color: black;
+    color: white;
+    height:70vh ;
+    text-align: center;
+    padding-top:40px ;
+}
+.second h1{
+    margin-bottom:6px ;
+}
+
+.second h5{
+    margin-bottom:15px ;
+}
+
+
+
+.box{
+     width: 49%;
+     background-color: black;
+     color: white;
+     margin: 6px;
+     text-align: center;
+     padding-top: 16px;
+    
+}
+.main{
+    display: flex;
+    margin: 10px;
+    
+}
+.box img{
+    width: 600px;
+    margin: 10px;
+   
+}
+
+.outer{
+    display: flex;
+    margin: 10px;
+}
+
+.box2{
+    text-align: center;
+    padding-top: 12px;
+    margin: 60px;
+    /* background-color: rgb(105, 255, 45); */
+
+}
+.box3{
+    text-align: center;
+    padding-top: 12px;
+    /* background-color: rgb(137, 241, 209); */
+    margin: 60px;
+   height: 20;
+   width: 300px;;
+}
+.box3 img{
+    column-gap: normal;
+}
+.ipad{
+   
+    color:black;
+    display: flex;
+   
+}
+.ipad-text{
+  text-align: center;
+  padding-top: 12%;
+  /* background-color:black; */
+  border-radius: 20px 20px;
+  width:1000px ;
+  
+}
+.first{
+    background-color: none;
+
+}
+.btn{
+    margin-top:12px ;
+}
+.btn button{
+  border: 2px solid rgb(0, 0, 0);
+  padding:14px ;
+  border-radius: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.mainfooter{
+    display: flex;
+    justify-content:space-around ;
+}
+.footernav{
+    padding: 14px;
+    /* color: blue; */
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    margin-bottom:10px;
+    text-align: center;
+}
+.footertext{
+    margin-top: 50px;
+}
+.footertext p{
+     margin-left: 70px;
+}
+
+.footernav ul{
+    list-style: none;
+
+}
+.footernav ul li{
+    display: inline;
+    margin-left: 60px;
+}
+.footernav ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
